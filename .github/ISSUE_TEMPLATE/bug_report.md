@@ -7,32 +7,38 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+#### Bug description
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Bug description, the more information you provide, it will be better
+Please, focus on a specific case and a specific path.
+If something doesn't work for all cases, you should describe the specific test case that
+the developer be able to reproduce the same path as someone who reportnig an issue.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+#### Steps to reproduce
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+Always use specific data and provide specific website url. Use the language which appears on the application, not your own naming.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+1. Go to https://sverige.neubloc.pl
+2. Log as user@com.pl password: password
+3. ...
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+####  Expected result
 
-**Additional context**
-Add any other context about the problem here.
+Necessarily, specify what the correct result should be.
+The more information you provide, this task will be performed more efficiently and quickly.
+
+#### Current result
+
+Describe the current (wrong) behaviour to make it easier to the developer what needs to be improved.
+
+#### Screenshots, movies
+
+Add screenshots, movies which will help for developers to determine
+which issue occurs and how to reproduce the steps
+
+#### Additional information
+
+If you want add something e.g. on which browser the issue occurs
+or other important data, specify here.
+
+/label ~bug
